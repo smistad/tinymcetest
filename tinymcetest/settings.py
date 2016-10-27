@@ -126,8 +126,14 @@ STATIC_URL = '/static/'
 TINYMCE_DEFAULT_CONFIG = {
     'plugins': "paste",
     'theme': "advanced",
+    'width': '800',
+    'height': '800',
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
+    'theme_advanced_buttons1': 'bold,italic,underline,image,bullist,numlist,redo,undo,formatselect',
+    'theme_advanced_buttons2': '',
+    'theme_advanced_buttons3': '',
+    'theme_advanced_blockformats': 'h1,h2,h3,h4,h5,h6',
 }
 
 
